@@ -1,0 +1,791 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.16f1 (d2c21f0ef2f1) revision 13812255'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'vi' Physical Memory: 7930 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/testbuid
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54601
+Successfully changed project path to: C:/testbuid
+C:/testbuid
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [12660] Host "[IP] 192.168.1.4 [Port] 0 [Flags] 2 [Guid] 1107627504 [EditorId] 1107627504 [Version] 1048832 [Id] WindowsEditor(7,VinhDao) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [12660] Host "[IP] 192.168.1.4 [Port] 0 [Flags] 2 [Guid] 1107627504 [EditorId] 1107627504 [Version] 1048832 [Id] WindowsEditor(7,VinhDao) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 86.01 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.16f1 (d2c21f0ef2f1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/testbuid/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3991 MB
+    Driver:   31.0.15.1720
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56336
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Registered in 0.002818 seconds.
+- Loaded All Assemblies, in  0.415 seconds
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.361 seconds
+Domain Reload Profiling: 776ms
+	BeginReloadAssembly (151ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (170ms)
+		LoadAssemblies (149ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (168ms)
+			TypeCache.Refresh (165ms)
+				TypeCache.ScanAssembly (145ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (361ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (273ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (192ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.258 seconds
+Refreshing native plugins compatible for Editor in 12.65 ms, found 4 plugins.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.247 seconds
+Domain Reload Profiling: 2501ms
+	BeginReloadAssembly (221ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (919ms)
+		LoadAssemblies (722ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (333ms)
+			TypeCache.Refresh (276ms)
+				TypeCache.ScanAssembly (245ms)
+			ScanForSourceGeneratedMonoScriptInfo (42ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1248ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (942ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (213ms)
+			ProcessInitializeOnLoadAttributes (660ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 6.14 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4231 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 83 unused Assets / (316.8 KB). Loaded Objects now: 4688.
+Memory consumption went from 153.2 MB to 152.9 MB.
+Total: 6.462700 ms (FindLiveObjects: 0.526300 ms CreateObjectMapping: 0.321900 ms MarkObjects: 5.139400 ms  DeleteObjects: 0.473400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.081 seconds
+Refreshing native plugins compatible for Editor in 4.04 ms, found 4 plugins.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.734 seconds
+Domain Reload Profiling: 4813ms
+	BeginReloadAssembly (1027ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (113ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (451ms)
+	RebuildCommonClasses (64ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (909ms)
+		LoadAssemblies (1206ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (52ms)
+			TypeCache.Refresh (34ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (2735ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (788ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (96ms)
+			ProcessInitializeOnLoadAttributes (628ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 7.33 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4213 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (288.5 KB). Loaded Objects now: 4705.
+Memory consumption went from 150.5 MB to 150.2 MB.
+Total: 12.290800 ms (FindLiveObjects: 0.416400 ms CreateObjectMapping: 0.163800 ms MarkObjects: 11.370000 ms  DeleteObjects: 0.338700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 202290.633208 seconds.
+  path: Assets/Free Pixel Art Forest/Lab5+6-Res/Background/Blue.png
+  artifactKey: Guid(f182c5931dff174489a2e52adcba4146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Pixel Art Forest/Lab5+6-Res/Background/Blue.png using Guid(f182c5931dff174489a2e52adcba4146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d216593657e7ac1df079e134e15b5b0') in 0.136267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.513 seconds
+Refreshing native plugins compatible for Editor in 3.05 ms, found 4 plugins.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.866 seconds
+Domain Reload Profiling: 2378ms
+	BeginReloadAssembly (194ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (249ms)
+		LoadAssemblies (340ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1867ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (791ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (109ms)
+			ProcessInitializeOnLoadAttributes (620ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 5.60 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4212 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (288.4 KB). Loaded Objects now: 4727.
+Memory consumption went from 156.6 MB to 156.3 MB.
+Total: 14.202800 ms (FindLiveObjects: 2.112100 ms CreateObjectMapping: 0.480600 ms MarkObjects: 10.693900 ms  DeleteObjects: 0.912500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 259.043911 seconds.
+  path: Assets/Free Pixel Art Forest/Lab5+6-Res/Items/Checkpoints/End/End (Pressed) (64x64).png
+  artifactKey: Guid(a70638b5f56c8564e9887bda7c5b4eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Pixel Art Forest/Lab5+6-Res/Items/Checkpoints/End/End (Pressed) (64x64).png using Guid(a70638b5f56c8564e9887bda7c5b4eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7052dc08d9d6fff847b63e5838f0307b') in 0.074218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.426094 seconds.
+  path: Assets/Free Pixel Art Forest/Lab5+6-Res/Items/Checkpoints/End/End (Pressed) (64x64).png
+  artifactKey: Guid(a70638b5f56c8564e9887bda7c5b4eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Pixel Art Forest/Lab5+6-Res/Items/Checkpoints/End/End (Pressed) (64x64).png using Guid(a70638b5f56c8564e9887bda7c5b4eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b98a3ec20c223a33665ebf88de46b5ac') in 0.079606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 13.783390 seconds.
+  path: Assets/Free Pixel Art Forest/Lab5+6-Res/Items/Checkpoints/Start/Start (Moving) (64x64).png
+  artifactKey: Guid(28ddf5da12c4d744190b860ad4e8bb47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Pixel Art Forest/Lab5+6-Res/Items/Checkpoints/Start/Start (Moving) (64x64).png using Guid(28ddf5da12c4d744190b860ad4e8bb47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c8b08185de0a95ce63d5a85b455d3b') in 0.019962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.536773 seconds.
+  path: Assets/Free Pixel Art Forest/Lab5+6-Res/Items/Checkpoints/Start/Start (Moving) (64x64).png
+  artifactKey: Guid(28ddf5da12c4d744190b860ad4e8bb47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Pixel Art Forest/Lab5+6-Res/Items/Checkpoints/Start/Start (Moving) (64x64).png using Guid(28ddf5da12c4d744190b860ad4e8bb47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ff777c2f20ab6071a10ad858f8c97d1') in 0.114767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 58.014589 seconds.
+  path: Assets/Free Pixel Art Forest/Lab5+6-Res/Terrain/Terrain (16x16)_4.asset
+  artifactKey: Guid(41848aea078dad54a8f72e876cc9c8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Pixel Art Forest/Lab5+6-Res/Terrain/Terrain (16x16)_4.asset using Guid(41848aea078dad54a8f72e876cc9c8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3a53c09653bb4e1e8fc94a1fe98408c') in 0.055718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Free Pixel Art Forest/Lab5+6-Res/Terrain/Terrain (16x16)_12.asset
+  artifactKey: Guid(4199f2bf143af2a46a3c9165d9165d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Pixel Art Forest/Lab5+6-Res/Terrain/Terrain (16x16)_12.asset using Guid(4199f2bf143af2a46a3c9165d9165d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b90aae151d55a08028d61407f21e9be4') in 0.030369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Free Pixel Art Forest/Lab5+6-Res/Terrain/Terrain (16x16)_7.asset
+  artifactKey: Guid(1a044caf73f95e940a20fe0c675f47c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Pixel Art Forest/Lab5+6-Res/Terrain/Terrain (16x16)_7.asset using Guid(1a044caf73f95e940a20fe0c675f47c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd07b95dcabababec71f9822ac40ca063') in 0.017540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Free Pixel Art Forest/Lab5+6-Res/Terrain/Terrain (16x16)_10.asset
+  artifactKey: Guid(f987c30c373cbbb46b957ca61b60449a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Pixel Art Forest/Lab5+6-Res/Terrain/Terrain (16x16)_10.asset using Guid(f987c30c373cbbb46b957ca61b60449a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96e31a001955771b2825cebc26d5c7f8') in 0.016676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Free Pixel Art Forest/Lab5+6-Res/Terrain/Terrain (16x16)_11.asset
+  artifactKey: Guid(4c8e1fc9645c24040979726d0d54d593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Pixel Art Forest/Lab5+6-Res/Terrain/Terrain (16x16)_11.asset using Guid(4c8e1fc9645c24040979726d0d54d593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9036b0e3838b0d79ea9c3cc901302138') in 0.024729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Free Pixel Art Forest/Lab5+6-Res/Terrain/Terrain (16x16)_9.asset
+  artifactKey: Guid(abe01e0962164ea4c8c130f923d7a681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Pixel Art Forest/Lab5+6-Res/Terrain/Terrain (16x16)_9.asset using Guid(abe01e0962164ea4c8c130f923d7a681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb2be16f606f519fc7198804bdcf6ea5') in 0.018343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Free Pixel Art Forest/Lab5+6-Res/Terrain/Terrain (16x16)_8.asset
+  artifactKey: Guid(583a0c1b1b5f377459348be5c725eafc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Pixel Art Forest/Lab5+6-Res/Terrain/Terrain (16x16)_8.asset using Guid(583a0c1b1b5f377459348be5c725eafc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48dd59c292f3b160be9fda03d9e6b55c') in 0.027296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Free Pixel Art Forest/Lab5+6-Res/Terrain/Terrain (16x16)_6.asset
+  artifactKey: Guid(4bda2810f723bd047809d84abd0da571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Pixel Art Forest/Lab5+6-Res/Terrain/Terrain (16x16)_6.asset using Guid(4bda2810f723bd047809d84abd0da571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1141c7052dfc035b0eeef8ed940140a') in 0.015025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.328559 seconds.
+  path: Assets/Free Pixel Art Forest/Lab5+6-Res/Terrain/Terrain (16x16)_13.asset
+  artifactKey: Guid(542aeaceb505f9b4a82251b4fef26fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Pixel Art Forest/Lab5+6-Res/Terrain/Terrain (16x16)_13.asset using Guid(542aeaceb505f9b4a82251b4fef26fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29019d7050d0270b51bc229afae92f5c') in 0.014124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.062877 seconds.
+  path: Assets/Free Pixel Art Forest/Lab5+6-Res/Terrain/Terrain (16x16)_14.asset
+  artifactKey: Guid(7574308a33b47da4d9709599fc19ece9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Pixel Art Forest/Lab5+6-Res/Terrain/Terrain (16x16)_14.asset using Guid(7574308a33b47da4d9709599fc19ece9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd449ffc92ff92ccd42c5d0eef359a2d3') in 0.013093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.497331 seconds.
+  path: Assets/Free Pixel Art Forest/Lab5+6-Res/Terrain/Terrain (16x16)_15.asset
+  artifactKey: Guid(6bc10ecab2ca1164fba8b349eab42107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Pixel Art Forest/Lab5+6-Res/Terrain/Terrain (16x16)_15.asset using Guid(6bc10ecab2ca1164fba8b349eab42107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '294668762f93539a5f4d2ec28030c634') in 0.012889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.028379 seconds.
+  path: Assets/Free Pixel Art Forest/Lab5+6-Res/Terrain/Terrain (16x16)_16.asset
+  artifactKey: Guid(9ae6e29c8936286479c38229aea4862f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Pixel Art Forest/Lab5+6-Res/Terrain/Terrain (16x16)_16.asset using Guid(9ae6e29c8936286479c38229aea4862f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbb22a16663fb74a7cbea054c9dd2e5b') in 0.015422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.043975 seconds.
+  path: Assets/Free Pixel Art Forest/Lab5+6-Res/Terrain/Terrain (16x16)_18.asset
+  artifactKey: Guid(6ee5e81e149a64941a0fdb3199b4cd96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Pixel Art Forest/Lab5+6-Res/Terrain/Terrain (16x16)_18.asset using Guid(6ee5e81e149a64941a0fdb3199b4cd96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3066ddef2da15fe7b1aa2906a73b70c') in 0.014641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.224833 seconds.
+  path: Assets/Free Pixel Art Forest/Lab5+6-Res/Terrain/Terrain (16x16)_19.asset
+  artifactKey: Guid(82636d78c357f6f459ea70bc4cafc568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Pixel Art Forest/Lab5+6-Res/Terrain/Terrain (16x16)_19.asset using Guid(82636d78c357f6f459ea70bc4cafc568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ba30c57e2013b47fa37f9ac61cbee2f') in 0.017205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.033563 seconds.
+  path: Assets/Free Pixel Art Forest/Lab5+6-Res/Terrain/Terrain (16x16)_20.asset
+  artifactKey: Guid(dd65c9772b31b7a4db8010d68ed41cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Pixel Art Forest/Lab5+6-Res/Terrain/Terrain (16x16)_20.asset using Guid(dd65c9772b31b7a4db8010d68ed41cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fb6b36b54f0f2236718036c1d903265') in 0.019478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.041207 seconds.
+  path: Assets/Free Pixel Art Forest/Lab5+6-Res/Terrain/Terrain (16x16)_23.asset
+  artifactKey: Guid(cf9c360264e667648916a02fd9f2d4b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Pixel Art Forest/Lab5+6-Res/Terrain/Terrain (16x16)_23.asset using Guid(cf9c360264e667648916a02fd9f2d4b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7af329f823b3c8b7376ee1542bd0357e') in 0.011985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.237338 seconds.
+  path: Assets/Free Pixel Art Forest/Lab5+6-Res/Terrain/Terrain (16x16)_24.asset
+  artifactKey: Guid(340247be7ac733a44a49eb5bf4e6f34a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Pixel Art Forest/Lab5+6-Res/Terrain/Terrain (16x16)_24.asset using Guid(340247be7ac733a44a49eb5bf4e6f34a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '341079eccb0d7b373f27d9e605caf6d2') in 0.015545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.045382 seconds.
+  path: Assets/Free Pixel Art Forest/Lab5+6-Res/Terrain/Terrain (16x16)_26.asset
+  artifactKey: Guid(0592e09fcc319a34788e88f75b3dd01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Pixel Art Forest/Lab5+6-Res/Terrain/Terrain (16x16)_26.asset using Guid(0592e09fcc319a34788e88f75b3dd01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e90dcfae946c74898bbc72cb9b8adef') in 0.012787 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.250292 seconds.
+  path: Assets/Free Pixel Art Forest/Lab5+6-Res/Terrain/Terrain (16x16)_27.asset
+  artifactKey: Guid(626e434f780246645972bfc13db3850c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Pixel Art Forest/Lab5+6-Res/Terrain/Terrain (16x16)_27.asset using Guid(626e434f780246645972bfc13db3850c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b8d53d8aafc5b469eeef727b2ad7de') in 0.012805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.027397 seconds.
+  path: Assets/Free Pixel Art Forest/Lab5+6-Res/Terrain/Terrain (16x16)_28.asset
+  artifactKey: Guid(f57ebaa6b2f5fad4a971b968178878de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Pixel Art Forest/Lab5+6-Res/Terrain/Terrain (16x16)_28.asset using Guid(f57ebaa6b2f5fad4a971b968178878de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6ff936f36f0835ba3037259de7877b9') in 0.016613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Free Pixel Art Forest/Lab5+6-Res/Terrain/Terrain (16x16)_30.asset
+  artifactKey: Guid(459a77aff7642d54fb441096c40988bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Pixel Art Forest/Lab5+6-Res/Terrain/Terrain (16x16)_30.asset using Guid(459a77aff7642d54fb441096c40988bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e06c3041c3adb1ad137db7bc4bcc35c9') in 0.017451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.028642 seconds.
+  path: Assets/Free Pixel Art Forest/Lab5+6-Res/Terrain/Terrain (16x16)_31.asset
+  artifactKey: Guid(d674ca26cf27a2e4cb45de4f290c9b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Pixel Art Forest/Lab5+6-Res/Terrain/Terrain (16x16)_31.asset using Guid(d674ca26cf27a2e4cb45de4f290c9b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f689bb4584483c88d8e0f0bbc1f3e01a') in 0.011636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.223852 seconds.
+  path: Assets/Free Pixel Art Forest/Lab5+6-Res/Terrain/Terrain (16x16)_32.asset
+  artifactKey: Guid(31beef363b536b14f9ab0713d60769c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Pixel Art Forest/Lab5+6-Res/Terrain/Terrain (16x16)_32.asset using Guid(31beef363b536b14f9ab0713d60769c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '202d3c5ac54ce4b1ae371774fb0d7385') in 0.020035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.013590 seconds.
+  path: Assets/Free Pixel Art Forest/Lab5+6-Res/Terrain/Terrain (16x16)_33.asset
+  artifactKey: Guid(99bb95d3c2fb1584fa5d5df19c46a673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Pixel Art Forest/Lab5+6-Res/Terrain/Terrain (16x16)_33.asset using Guid(99bb95d3c2fb1584fa5d5df19c46a673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a8cec2f2f152efb64366649ae898268') in 0.012611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.018391 seconds.
+  path: Assets/Free Pixel Art Forest/Lab5+6-Res/Terrain/Terrain (16x16)_34.asset
+  artifactKey: Guid(4bcb2bd4b009cc14ca3d4a1907f44a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Pixel Art Forest/Lab5+6-Res/Terrain/Terrain (16x16)_34.asset using Guid(4bcb2bd4b009cc14ca3d4a1907f44a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6efb11c1decca3a96c816c66b34ca0e') in 0.016113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.282098 seconds.
+  path: Assets/Free Pixel Art Forest/Lab5+6-Res/Terrain/Terrain (16x16)_36.asset
+  artifactKey: Guid(c59c6725884c4da49834bbd8a04fe772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Pixel Art Forest/Lab5+6-Res/Terrain/Terrain (16x16)_36.asset using Guid(c59c6725884c4da49834bbd8a04fe772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10ee03cafc21cbf45cdbcb7d13113a97') in 0.014433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.011884 seconds.
+  path: Assets/Free Pixel Art Forest/Lab5+6-Res/Terrain/Terrain (16x16)_37.asset
+  artifactKey: Guid(1e93753b3eb95c84da03a93d32da1280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Pixel Art Forest/Lab5+6-Res/Terrain/Terrain (16x16)_37.asset using Guid(1e93753b3eb95c84da03a93d32da1280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2d4c1bc81c16d5e626e9cda5ac109a8') in 0.017878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002377 seconds.
+  path: Assets/Free Pixel Art Forest/Lab5+6-Res/Terrain/Terrain (16x16)_38.asset
+  artifactKey: Guid(6101eafd5e6ab5f4e8f520202b6f68a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Pixel Art Forest/Lab5+6-Res/Terrain/Terrain (16x16)_38.asset using Guid(6101eafd5e6ab5f4e8f520202b6f68a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70efb4ee992ecaeaf28429d5ff2c3d7c') in 0.018132 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 13.522870 seconds.
+  path: Assets/Free Pixel Art Forest/Lab5+6-Res/Traps/Platforms/Brown On (32x8).png
+  artifactKey: Guid(cad69332e8d393749a07606f70afb57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Pixel Art Forest/Lab5+6-Res/Traps/Platforms/Brown On (32x8).png using Guid(cad69332e8d393749a07606f70afb57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '466d41dc62bc99686289ea045150f5a5') in 0.025120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Free Pixel Art Forest/Lab5+6-Res/Traps/Platforms/Grey Off.png
+  artifactKey: Guid(72ba4ef0a89c6d14d84c8da25e1e285f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Pixel Art Forest/Lab5+6-Res/Traps/Platforms/Grey Off.png using Guid(72ba4ef0a89c6d14d84c8da25e1e285f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e01993b66a7e9083d3c837e7dbf7b575') in 0.027319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Free Pixel Art Forest/Lab5+6-Res/Traps/Platforms/Grey On (32x8).png
+  artifactKey: Guid(72cf0f15e9039984ba944867b33c0800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Pixel Art Forest/Lab5+6-Res/Traps/Platforms/Grey On (32x8).png using Guid(72cf0f15e9039984ba944867b33c0800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '191ba25bdcd1a130545be1c977c76084') in 0.030163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.734 seconds
+Refreshing native plugins compatible for Editor in 2.90 ms, found 4 plugins.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.553 seconds
+Domain Reload Profiling: 2285ms
+	BeginReloadAssembly (201ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (459ms)
+		LoadAssemblies (537ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1554ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (796ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (645ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 3.59 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4212 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (288.3 KB). Loaded Objects now: 4765.
+Memory consumption went from 158.5 MB to 158.3 MB.
+Total: 6.255200 ms (FindLiveObjects: 0.420800 ms CreateObjectMapping: 0.174600 ms MarkObjects: 5.244000 ms  DeleteObjects: 0.414300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.484 seconds
+Refreshing native plugins compatible for Editor in 3.01 ms, found 4 plugins.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.253 seconds
+Domain Reload Profiling: 1736ms
+	BeginReloadAssembly (168ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (240ms)
+		LoadAssemblies (315ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1255ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (707ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (577ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 4.79 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4213 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (289.3 KB). Loaded Objects now: 4781.
+Memory consumption went from 160.8 MB to 160.5 MB.
+Total: 7.807300 ms (FindLiveObjects: 0.643900 ms CreateObjectMapping: 0.296700 ms MarkObjects: 6.418600 ms  DeleteObjects: 0.445000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.454 seconds
+Refreshing native plugins compatible for Editor in 4.25 ms, found 4 plugins.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.136 seconds
+Domain Reload Profiling: 1589ms
+	BeginReloadAssembly (166ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (213ms)
+		LoadAssemblies (287ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1137ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (667ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (549ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 4.70 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4213 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (288.2 KB). Loaded Objects now: 4797.
+Memory consumption went from 162.7 MB to 162.4 MB.
+Total: 7.649900 ms (FindLiveObjects: 1.341100 ms CreateObjectMapping: 0.437600 ms MarkObjects: 5.292900 ms  DeleteObjects: 0.575600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
